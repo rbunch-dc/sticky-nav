@@ -21,6 +21,7 @@
 
 #nav-bar li{
 	display: inline-block;
+	padding: 24px 12px;
 }
 
 #nav-bar a{
@@ -32,7 +33,9 @@
 
 }
 
-#nav-bar a:first-child{
+#nav-bar .active{
+	border-top: 2px solid #f09258;
+	padding-top: 10px;
 }
 
 
